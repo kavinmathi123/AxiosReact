@@ -4,9 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import Post from './Post.jsx'
 import Put from './Put.jsx'
+import Dashboard from './Dashboard.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Dashboard />
   </React.StrictMode>
 )
